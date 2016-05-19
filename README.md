@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/Oneflare/tracer_round.svg?branch=master)](https://travis-ci.org/Oneflare/tracer_round)
 # TracerRound
 
 TracerRound is a simple gem to track your users login and logout activity in a user_session_logs table. The gem currently records key information such as who the user was, the action (login or logout), the ip address, the geocoded country and the timestamp.
