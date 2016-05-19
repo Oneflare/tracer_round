@@ -8,10 +8,10 @@ TracerRound currently supports the following authentication frameworks:
 
 The audit table looks something like this.
 
-| user_id        | origin_ip         | origin_country | action        | created_at
-| -------------- | -------------     | -------------  | ------------- | -------------
-| 5              | 127.0.0.1         | India          | login         | 2016-01-01 12:00:00
-| 5              | 127.0.0.1         | Australia      | login         | 2016-01-01 01:00:00
+| user_id        | origin_ip         | origin_country    | origin_device  | origin_browser | action        | created_at
+| -------------- | -------------     | -------------     | -------------  | -------------  | ------------- | -------------
+| 5              | 127.0.0.1         | India             | mobile         | Chrome         | login         | 2016-01-01 12:00:00
+
 
 ## Documentation
 
