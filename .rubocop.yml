@@ -1,0 +1,11 @@
+AllCops:
+  TargetRubyVersion: 2.2
+  Rails:
+    Enabled: true
+Documentation:
+  Enabled: false
+Metrics/LineLength:
+  Max: 150
+Style/IndentationConsistency:
+  EnforcedStyle: rails
+  AllowProtectedAndPrivateMethodsBeIndented: true
