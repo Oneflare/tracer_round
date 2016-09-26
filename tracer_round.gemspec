@@ -23,4 +23,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rspec'
   s.add_development_dependency 'activerecord'
   s.add_development_dependency 'sqlite3'
+  s.add_development_dependency "rspec_junit_formatter", "~> 0.2"
 end
